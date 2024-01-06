@@ -133,7 +133,7 @@ inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
-colorscheme Tomorrow-Night
+colorscheme desert
 
 filetype on
 set guifont=JetBrains\ Mono:h12

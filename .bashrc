@@ -120,3 +120,11 @@ export PS1="[\t] \[\e[32m\]\u@\h:\w\[\e[0m\] \$ "
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# Set PATH, MANPATH, etc., for Homebrew.
+export HOMEBREW_BREW_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/brew.git"
+export HOMEBREW_CORE_GIT_REMOTE="https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git"
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash
+set -o vi
