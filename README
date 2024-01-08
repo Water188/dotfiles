@@ -1,3 +1,6 @@
 This is a repository to place my dotfiles.
 - vim
 - bash
+- fzf(key binding in bash)
+- fzf(key binding in zsh)
+- zsh
